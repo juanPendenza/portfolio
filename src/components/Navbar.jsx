@@ -2,8 +2,10 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 
 function Navbar() {
+  // ES LA HAMBUERGUESA QUE ESTA DEL LADO DERECHO DEL NAV, EN LA PARTE MOBILE
   const [burger, setBurger] = useState(false);
 
+  // FUNCIÓN QUE MANJEA EL BURGER
   function handleBruger() {
     if (burger == false) {
       setBurger(true);
@@ -12,6 +14,7 @@ function Navbar() {
     }
   }
 
+  // RUTA DE CADA UNA DE LAS PAGES
   const routes = [
     { path: "/", label: "Home" },
     { path: "/skills", label: "Skills" },
@@ -23,10 +26,29 @@ function Navbar() {
     <>
       <nav className="h-16 w-full border p-2">
         <div className="h-full w-full flex justify-between items-center">
-          <img src="" alt="" className="w-10 h-full" />
+          <Link to={"/"}>
+            <img src="" alt="mi-logo" className="w-10 h-10 border" />
+          </Link>
+          {/* ESTILOS DESKTOP */}
+          <ul className="hidden lg:h-full lg:w-1/3 lg:flex lg:items-center lg:justify-evenly">
+            {routes.map(({ path, label }, index) => (
+              <button key={index} onClick={handleBruger} className="w-16">
+                <li>
+                  <Link
+                    to={path}
+                    className="text-lg text-white hover:text-[#00BFFF]"
+                  >
+                    {label}
+                  </Link>
+                </li>
+              </button>
+            ))}
+          </ul>
+          {/* ESTILOS MOBILE */}
           <button
+            /* CUANDO HAGO CLICK AL BURGER SE EJECUTA LA FUNCIÓN QUE LO MANEJA */
             onClick={handleBruger}
-            className="flex justify-center items-center"
+            className="flex justify-center items-center lg:hidden"
           >
             {burger ? (
               <svg
@@ -34,7 +56,7 @@ function Navbar() {
                 fill="none"
                 viewBox="0 0 24 24"
                 strokeWidth={1.5}
-                stroke="currentColor"
+                stroke="white"
                 className="size-6"
               >
                 <path
@@ -49,7 +71,7 @@ function Navbar() {
                 fill="none"
                 viewBox="0 0 24 24"
                 strokeWidth={1.5}
-                stroke="currentColor"
+                stroke="white"
                 className="size-6"
               >
                 <path
@@ -65,7 +87,7 @@ function Navbar() {
       <ul
         className={
           burger
-            ? `h-96 flex flex-col items-center justify-center gap-6`
+            ? `h-96 flex flex-col items-center justify-evenly mt-24 lg:hidden`
             : "hidden"
         }
       >
