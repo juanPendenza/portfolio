@@ -24,10 +24,12 @@ function Navbar() {
 
   return (
     <>
-      <nav className="h-16 w-full border p-2">
+      <nav className="h-16 w-full border-b border-gray-700 p-2 lg:h-20">
         <div className="h-full w-full flex justify-between items-center">
           <Link to={"/"}>
-            <img src="" alt="mi-logo" className="w-10 h-10 border" />
+            <span className="text-5xl lg:text-6xl font-bold font-Poppins text-white hover:text-[#00BFFF] ml-3">
+              JP
+            </span>
           </Link>
           {/* ESTILOS DESKTOP */}
           <ul className="hidden lg:h-full lg:w-1/3 lg:flex lg:items-center lg:justify-evenly">

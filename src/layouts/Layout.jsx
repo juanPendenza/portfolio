@@ -12,16 +12,16 @@ function Layout() {
         <div className="sticky top-0 z-50 h-16 bg-[#111831]">
           <Navbar />
         </div>
-        <div className="h-full w-full">
+        <div className="h-full w-screen">
           <Outlet />
         </div>
       </div>
 
       <div className="flex flex-col w-screen bg-[#111831]">
-        <div className="bottom-0 z-50 h-52 bg-[#111831]">
+        <div className="bottom-0 z-50 bg-[#111831]">
           <Footer />
         </div>
-        <div className="h-full w-full">
+        <div className="h-full w-screen">
           <Outlet />
         </div>
       </div>
