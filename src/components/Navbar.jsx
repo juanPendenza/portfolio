@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import Logo from "./Logo";
 
 function Navbar() {
   // ES LA HAMBUERGUESA QUE ESTA DEL LADO DERECHO DEL NAV, EN LA PARTE MOBILE
@@ -24,12 +25,10 @@ function Navbar() {
 
   return (
     <>
-      <nav className="sticky top-0 z-50 h-16 w-full flex flex-col items-center border-b border-gray-300 shadow-lg bg-white p-2 lg:h-20 ">
+      <nav className="sticky top-0 z-50 h-16 w-full flex flex-col items-center shadow-lg bg-white p-2 lg:h-20 ">
         <div className="h-full w-screen flex justify-between items-center">
-          <Link to={"/"}>
-            <span className="text-5xl lg:text-6xl font-bold font-Poppins text-black hover:text-[#00BFFF] ml-3">
-              JP
-            </span>
+          <Link className="ml-3 lg:ml-5" to={"/"}>
+            <Logo />
           </Link>
           {/* ESTILOS DESKTOP */}
           <ul className="hidden lg:h-full lg:w-1/3 lg:flex lg:items-center lg:justify-evenly">
@@ -39,7 +38,7 @@ function Navbar() {
                 <li>
                   <Link
                     to={path}
-                    className="text-md font-semibold text-gray-600 hover:text-[#00BFFF]"
+                    className="font-poppins text-md font-semibold text-gray-600 hover:text-[#00BFFF]"
                   >
                     {label}
                   </Link>
@@ -120,7 +119,7 @@ function Navbar() {
                   <li>
                     <Link
                       to={path}
-                      className="text-md font-semibold text-gray-600"
+                      className="font-poppins text-md font-semibold text-gray-600"
                     >
                       {label}
                     </Link>
