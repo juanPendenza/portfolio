@@ -78,7 +78,7 @@ function Navbar() {
         <div
           className={
             burger
-              ? "h-screen w-screen absolute top-0 right-0 left-0 bottom-0 bg-black/70 lg:hidden "
+              ? "h-screen w-screen absolute top-0 right-0 left-0 bottom-0 bg-black/80 lg:hidden "
               : "hidden"
           }
         >
