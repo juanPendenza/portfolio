@@ -1,0 +1,5 @@
+// SKILLS QUE VOY A USAR COMO PROP EN EL COMPONENTE SKILL
+export const skill = [];
+
+// CARDS QUE VOY A USAR COMO PROP EN EL COMPONENTE CARD
+export const card = [];

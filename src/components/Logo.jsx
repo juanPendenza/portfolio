@@ -1,9 +1,12 @@
 import React from "react";
 
+// LOGO QUE APARECE EN EL NAV Y EN EL FOOTER
 function Logo() {
   return (
     <div>
-      <span className="text-5xl lg:text-6xl font-bold text-black">JP</span>
+      <span className="text-xl font-poppins font-bold text-black dark:text-white">
+        juan.dev
+      </span>
     </div>
   );
 }
