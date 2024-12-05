@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
@@ -9,7 +9,7 @@ import Works from "./pages/Works";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route index path="/" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
@@ -18,7 +18,7 @@ function App() {
           {/* ruta comodín a la que se dirige el cliente cuando no machea ninguna de las anteriores */}
           <Route path="*" element={<NotFound />}></Route>
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </>
   );
 }
