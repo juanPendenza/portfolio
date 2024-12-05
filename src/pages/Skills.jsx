@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import SkillsLayout from "../components/SkillsLayout";
-import { backSkills, dbSkills, frontSkills, otherSkills } from "../utils/utils";
+import { backSkills, dbSkills, frontSkills, otherSkills } from "./utils/utils";
 import { useLangContext } from "../components/LangContext";
 
 // PAGINA QUE MUESTRA TODAS MIS SKILLS Y CERTIFICACIONES
