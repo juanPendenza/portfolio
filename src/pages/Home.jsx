@@ -110,9 +110,7 @@ function Home() {
                 </div>
               ))}
             </div>
-            <div
-              className={`${location.pathname !== "/skills" ? "" : "hidden"}`}
-            >
+            <div className={`${location.hash !== "#/skills" ? "" : "hidden"}`}>
               <Link to={"/skills"}>
                 <a className="link link-primary underline lg:no-underline hover:underline font-poppins transition-all duration-200">
                   {lang === "en"

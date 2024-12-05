@@ -32,6 +32,8 @@ function Navbar() {
     { path: "/contact", label: `${lang === "en" ? "Contact" : "Contacto"}` },
   ];
 
+  console.log(location);
+
   // FUNCIÓN QUE MANJEA EL BURGER
   function handleBruger() {
     setBurger(!burger);
@@ -68,15 +70,15 @@ function Navbar() {
     <nav
       // este ternario es para que en la page NotFound se mantenga el modo oscuro pero no se muestre el nav
       className={
-        location.pathname != "/" &&
-        location.pathname != "/skills" &&
-        location.pathname != "/works" &&
-        location.pathname != "/contact"
+        location.hash != "#/" &&
+        location.hash != "#/skills" &&
+        location.hash != "#/works" &&
+        location.hash != "#/contact"
           ? "hidden"
           : "sticky top-0 z-50 h-16 w-full transition-all duration-300 border-b bg-white dark:bg-[#101010] lg:bg-transparent dark:lg:bg-transparent border-gray-300 dark:border-[#383838] lg:border-none flex flex-col items-center p-2 lg:h-24 lg:p-4 lg:overflow-x-hidden"
       }
     >
-      <div className="h-full w-screen flex justify-between items-center px-2 ">
+      <div className="h-full w-screen flex justify-between items-center px-2">
         <Link to={"/"} className="lg:w-1/3 lg:pl-10">
           <Logo />
         </Link>
@@ -90,7 +92,7 @@ function Navbar() {
                   <Link
                     to={path}
                     className={`font-poppins text-sm font-semibold transition-all duration-200 hover:text-black dark:hover:text-white p-1 ${
-                      location.pathname == path
+                      location.hash == path
                         ? "text-black dark:text-white bg-gray-200 dark:bg-[#4f4f4f] rounded-full"
                         : "text-[#808080]"
                     }`}

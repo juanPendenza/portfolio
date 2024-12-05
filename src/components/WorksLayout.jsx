@@ -9,7 +9,7 @@ function WorksLayout({ primaryWorks, secondaryWorks }) {
   return (
     <div
       className={`hero transition-all duration-300 border-b ${
-        location.pathname !== "/works"
+        location.hash != "#/works"
           ? "min-h-screen lg:h-screen border-gray-300 dark:border-[#383838]"
           : "min-h-screen border-none lg:pt-24"
       }`}
@@ -31,7 +31,7 @@ function WorksLayout({ primaryWorks, secondaryWorks }) {
           {/* ESTE SEGUNDO SE MUESTRA SOLAMENTE EN LA PAGE WORKS, Y CONTIENE A TODOS LOS DEMÁS TRABAJOS */}
           <div
             className={`flex flex-col lg:flex-row lg:flex-wrap items-center justify-center gap-10 lg:gap-20 lg:pb-40 animate__animated animate__fadeInRight ${
-              location.pathname !== "/works" ? "hidden" : ""
+              location.hash != "#/works" ? "hidden" : ""
             }`}
           >
             {secondaryWorks.map((w, index) => (
@@ -41,7 +41,7 @@ function WorksLayout({ primaryWorks, secondaryWorks }) {
             ))}
           </div>
           {/* EL BOTÓN DE VER MÁS SOLAMENTE SE MUESTRA EN LA HOME, Y NO EN WORKS */}
-          <div className={`${location.pathname !== "/works" ? "" : "hidden"}`}>
+          <div className={`${location.hash != "#/works" ? "" : "hidden"}`}>
             <Link to={"/works"}>
               <a className="link link-primary underline lg:no-underline hover:underline font-poppins transition-all duration-200">
                 {lang === "en"

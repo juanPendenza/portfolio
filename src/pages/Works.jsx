@@ -7,9 +7,6 @@ import { useEffect } from "react";
 
 // PÁGINA QUE SOLO MUESTRA LOS TRABAJOS
 function Works() {
-  // TRAIGO EL LENGUAJE DEL CONTEXTO
-  const { lang } = useLangContext();
-
   // CUANDO VOY A /work HACE UN SCROLL AL INICIO
   useEffect(() => {
     window.scrollTo(0, 0);

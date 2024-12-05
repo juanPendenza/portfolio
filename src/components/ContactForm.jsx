@@ -56,7 +56,7 @@ function ContactForm() {
       <div className="hero-content min-w-80 lg:w-full text-center pb-20 pt-14 lg:py-0">
         <div
           className={`w-full flex flex-col items-center justify-center gap-10 lg:gap-20 ${
-            location.pathname !== "/contact" ? "" : "lg:pb-56"
+            location.hash !== "#/contact" ? "" : "lg:pb-56"
           }`}
         >
           {/* TITULO */}
