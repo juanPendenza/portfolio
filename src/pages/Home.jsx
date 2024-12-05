@@ -16,18 +16,6 @@ function Home() {
   // TRAIGO EL LENGUAJE DEL CONTEXTO
   const { lang } = useLangContext();
 
-  // LENGUAJES
-  /* const [spanish] = useState(() => {
-    return sessionStorage.getItem("spanish")
-      ? JSON.parse(sessionStorage.getItem("spanish"))
-      : false;
-  }); */
-
-  // FUNCIÓN QUE CAMBIA EL IDIOMA DE LA PÁGINA
-  /* function changeLang() {
-    setSpanish(!spanish);
-  }
- */
   // CUANDO VOY A LA /home HACE UN SCROLL AL INICIO
   useEffect(() => {
     window.scrollTo(0, 0);

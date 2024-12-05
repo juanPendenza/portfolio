@@ -32,8 +32,6 @@ function Navbar() {
     { path: "/contact", label: `${lang === "en" ? "Contact" : "Contacto"}` },
   ];
 
-  console.log(location);
-
   // FUNCIÓN QUE MANJEA EL BURGER
   function handleBruger() {
     setBurger(!burger);
