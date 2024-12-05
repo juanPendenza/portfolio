@@ -70,6 +70,8 @@ function Navbar() {
     <nav
       // este ternario es para que en la page NotFound se mantenga el modo oscuro pero no se muestre el nav
       className={
+        location.hash != "" &&
+        location.hash != "#" &&
         location.hash != "#/" &&
         location.hash != "#/skills" &&
         location.hash != "#/works" &&
