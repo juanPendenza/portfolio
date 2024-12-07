@@ -1,28 +1,28 @@
 // SKILLS IMAGES
-import htmlImg from "../../assets/HTML5.png";
-import cssImg from "../../assets/CSS3.png";
-import jsImg from "../../assets/JavaScript.png";
-import tsImg from "../../assets/TypeScript.png";
-import reactImg from "../../assets/React.png";
-import twImg from "../../assets/Tailwind CSS.png";
-import nodeImg from "../../assets/Node.js.png";
-import exImg from "../../assets/Express.png";
-import fbImg from "../../assets/Firebase.png";
-import sqliteImg from "../../assets/SQLite.png";
-import gitImg from "../../assets/Git.png";
-import ghImg from "../../assets/GitHub (1).png";
-import pmImg from "../../assets/Postman.png";
-import trelloImg from "../../assets/Trello.png";
-import vscImg from "../../assets/Visual Studio Code (VS code).png";
-import viteImg from "../../assets/Vite.js.png";
-/* import bashImg from "../../assets/Bash.png";
-import psImg from "../../assets/Powershell.png"; */
+import htmlImg from "../assets/HTML5.png";
+import cssImg from "../assets/CSS3.png";
+import jsImg from "../assets/JavaScript.png";
+import tsImg from "../assets/TypeScript.png";
+import reactImg from "../assets/React.png";
+import twImg from "../assets/Tailwind CSS.png";
+import nodeImg from "../assets/Node.js.png";
+import exImg from "../assets/Express.png";
+import fbImg from "../assets/Firebase.png";
+import sqliteImg from "../assets/SQLite.png";
+import gitImg from "../assets/Git.png";
+import ghImg from "../assets/GitHub (1).png";
+import pmImg from "../assets/Postman.png";
+import trelloImg from "../assets/Trello.png";
+import vscImg from "../assets/Visual Studio Code (VS code).png";
+import viteImg from "../assets/Vite.js.png";
+/* import bashImg from "../assets/Bash.png";
+import psImg from "../assets/Powershell.png"; */
 
 // WORKS IMAGES
-import pokemonImg from "../../assets/pokemon-game-img.png";
-import expenseTrackerImg from "../../assets/expense-tracker-img.png";
-import cajaRegistradoraImg from "../../assets/caja-registradora-img.png";
-import calculadoraImg from "../../assets/calculadora.png";
+import pokemonImg from "../assets/pokemon-game-img.png";
+import expenseTrackerImg from "../assets/expense-tracker-img.png";
+import cajaRegistradoraImg from "../assets/caja-registradora-img.png";
+import calculadoraImg from "../assets/calculadora.png";
 
 // CONTEXTO
 /* import { useLangContext } from "../components/LangContext";
