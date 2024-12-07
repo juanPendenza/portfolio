@@ -23,7 +23,7 @@ function ModalMessage({ text, error }) {
         <p className="py-4 text-black/65 font-poppins text-sm">
           {lang === "en"
             ? "Press ESC key or click on ✕ button to close"
-            : "Presiona la tecla ESC o clickea la ✕ para cerrar"}
+            : "Presiona la tecla ESC o clickeá la ✕ para cerrar"}
         </p>
       </div>
     </dialog>

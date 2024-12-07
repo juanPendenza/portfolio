@@ -6,6 +6,7 @@ function Skill({ skill }) {
       {/* IMG DE LA SKILL */}
       <img
         className="w-full h-full animate__animated animate__pulse animate__infinite"
+        style={{ filter: "drop-shadow(0px 0px 1px #70ffaf)" }}
         src={skill.img}
         alt={skill.name}
       />

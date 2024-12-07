@@ -46,7 +46,7 @@ function Home() {
                   : "Mi nombre es Juan Pablo Pendenza. Soy un desarrollador fullstack de Buenos Aires, Argentina.📍"}
               </p>
               {/* CV */}
-              <a
+              {/* <a
                 onClick={() => {
                   const resume = document.createElement("a"); // Accede al enlace dinámico
                   resume.href = "/public/CV.pdf"; // Ruta del archivo en la carpeta public
@@ -74,7 +74,7 @@ function Home() {
                 <span className="font-poppins">
                   {lang === "en" ? "resume" : "cv"}
                 </span>
-              </a>
+              </a> */}
             </div>
             {/* IMAGEN */}
             <div className="w-72 lg:w-80 animate__animated animate__fadeInRight">

@@ -92,7 +92,7 @@ function Navbar() {
                   <Link
                     to={path}
                     className={`font-poppins text-sm font-semibold transition-all duration-200 hover:text-black dark:hover:text-white p-1 ${
-                      location.hash == path
+                      location.hash == "#" + path
                         ? "text-black dark:text-white bg-gray-200 dark:bg-[#4f4f4f] rounded-full"
                         : "text-[#808080]"
                     }`}
