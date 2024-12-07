@@ -15,14 +15,13 @@ import pmImg from "../assets/Postman.png";
 import trelloImg from "../assets/Trello.png";
 import vscImg from "../assets/vsc.png";
 import viteImg from "../assets/Vite.png";
-/* import bashImg from "../assets/bash.png";
-import psImg from "../assets/Powershell.png"; */
 
 // WORKS IMAGES
 import pokemonImg from "../assets/pokemon-game-img.png";
 import expenseTrackerImg from "../assets/expense-tracker-img.png";
 import cajaRegistradoraImg from "../assets/caja-registradora-img.png";
 import calculadoraImg from "../assets/calculadora.png";
+import portfolioImg from "../assets/portfolio-img.png";
 
 // SKILLS QUE VOY A USAR COMO PROP EN EL COMPONENTE SKILL
 export const primarySkills = [
@@ -50,8 +49,6 @@ export const frontSkills = [
 export const backSkills = [
   { name: "Node", img: nodeImg },
   { name: "Express", img: exImg },
-  // { name: "Bash", img: bashImg },
-  // { name: "Powershell", img: psImg },
 ];
 
 export const dbSkills = [
@@ -120,46 +117,16 @@ export const scondaryWorks = [
     codeUrl: "https://github.com/juanPendenza/calculadora.git",
     pageUrl: "https://juanPendenza.github.io/calculadora",
   },
-  /*
   {
-    img: "",
-    title: "",
-    description: "",
-    technologies: "",
-    codeUrl: "",
-    pageUrl: "",
+    img: portfolioImg,
+    titleEn: "Portfolio",
+    titleEs: "Portafolio",
+    descriptionEn:
+      "I created this portfolio you´re looking at and deployed it with GitHub Actions.",
+    descriptionEs:
+      "Yo creé este portafolio que estás viendo y lo desplegué con GitHub Actions.",
+    technologies: ["react", "js", "tailwind"],
+    codeUrl: "https://github.com/juanPendenza/portfolio.git",
+    pageUrl: "https://juanPendenza.github.io/portfolio",
   },
-  
-  {
-    img: "",
-    title: "",
-    description: "",
-    technologies: "",
-    codeUrl: "",
-    pageUrl: "",
-  },
-  {
-    img: "",
-    title: "",
-    description: "",
-    technologies: "",
-    codeUrl: "",
-    pageUrl: "",
-  },
-  {
-    img: "",
-    title: "",
-    description: "",
-    technologies: "",
-    codeUrl: "",
-    pageUrl: "",
-  },
-  {
-    img: "",
-    title: "",
-    description: "",
-    technologies: "",
-    codeUrl: "",
-    pageUrl: "",
-  }, */
 ];
