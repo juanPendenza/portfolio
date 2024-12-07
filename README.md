@@ -1,3 +1,2 @@
 # Portfolio
-
-<!-- https://juanpendenza.github.io/portfolio/ -->
+https://juanpendenza.github.io/portfolio/
