@@ -4,7 +4,7 @@ import ContactForm from "../components/ContactForm";
 import Footer from "../components/Footer";
 import "animate.css";
 import { useEffect, useState } from "react";
-import { primarySkills, primaryWorks, scondaryWorks } from "./utils/utils.js";
+import { primarySkills, primaryWorks, scondaryWorks } from "../utils/utils.js";
 import { Link } from "react-router-dom";
 import homeImg from "../assets/OIG4.png";
 import Skill from "../components/Skill";
