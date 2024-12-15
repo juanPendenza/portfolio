@@ -10,11 +10,15 @@ function WorksLayout({ primaryWorks, secondaryWorks }) {
     <div
       className={`hero transition-all duration-300 border-b ${
         location.hash != "#/works"
-          ? "min-h-screen lg:h-screen border-gray-300 dark:border-[#383838]"
+          ? "min-h-screen border-gray-300 dark:border-[#383838]"
           : "min-h-screen border-none lg:pt-24"
       }`}
     >
-      <div className="hero-content text-center py-20 lg:py-0">
+      <div
+        className={`hero-content text-center py-20 ${
+          location.hash != "#/works" ? "lg:pt-36" : "lg:py-0"
+        }`}
+      >
         <div className="flex flex-col items-center gap-10 lg:gap-20">
           <h1 className="text-5xl font-poppins font-bold transition-all duration-300 text-black dark:text-white text-center animate__animated animate__fadeInDown">
             {lang === "en" ? "Works" : "Trabajos"}

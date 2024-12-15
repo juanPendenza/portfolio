@@ -27,8 +27,8 @@ function Home() {
       <Navbar />
 
       {/* SECCIÓN PRESENTACIÓN */}
-      <div className="hero h-min-screen lg:h-screen transition-all duration-300 border-b border-gray-300 dark:border-[#383838]">
-        <div className="hero-content w-full pt-24 lg:pt-22 pb-16 lg:pb-40 flex-col gap-20 lg:gap-28">
+      <div className="hero min-h-screen transition-all duration-300 border-b border-gray-300 dark:border-[#383838]">
+        <div className="hero-content w-full pt-28 lg:pt-4 pb-16 lg:pb-28 flex-col gap-20 lg:gap-28">
           <div className="w-full flex flex-col lg:flex-row items-center lg:justify-center gap-10">
             <div
               className={`flex flex-col items-center lg:items-start ${

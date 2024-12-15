@@ -55,7 +55,7 @@ function ContactForm() {
       <ModalMessage text={error || success} error={error ? true : false} />
       <div className="hero-content min-w-80 lg:w-full text-center pb-20 pt-14 lg:py-0">
         <div
-          className={`w-full flex flex-col items-center justify-center gap-10 lg:gap-20 ${
+          className={`w-full flex flex-col items-center justify-center gap-10 lg:gap-16 ${
             location.hash !== "#/contact" ? "" : "lg:pb-56"
           }`}
         >
