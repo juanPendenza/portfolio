@@ -22,6 +22,7 @@ import expenseTrackerImg from "../assets/expense-tracker-img.png";
 import cajaRegistradoraImg from "../assets/caja-registradora-img.png";
 import calculadoraImg from "../assets/calculadora.png";
 import portfolioImg from "../assets/portfolio-img.png";
+import quoteGeneratorImg from "../assets/quote-generator-img.png";
 
 // SKILLS QUE VOY A USAR COMO PROP EN EL COMPONENTE SKILL
 export const primarySkills = [
@@ -91,16 +92,16 @@ export const primaryWorks = [
     pageUrl: "https://juanPendenza.github.io/expense-tracker",
   },
   {
-    img: cajaRegistradoraImg,
-    titleEn: "Register box",
-    titleEs: "Caja registradora",
+    img: quoteGeneratorImg,
+    titleEn: "Quote generator",
+    titleEs: "Generador de frases",
     descriptionEn:
-      "This is a register box that can be use to do counts, to storage done sells and close the box at the end of the day.",
+      "This is a random quote generator using the quote's ninja API.",
     descriptionEs:
-      "Esta es una caja registradora que podés usar para hacer cuentas, almacenar las ventas y cerrar la caja al final del día.",
-    technologies: ["js", "html", "css"],
-    codeUrl: "https://github.com/juanPendenza/caja-registradora.git",
-    pageUrl: "https://juanPendenza.github.io/caja-registradora",
+      "Este es un generador de frases al azar usando la API de frases de ninja",
+    technologies: ["react", "js", "tailwind"],
+    codeUrl: "https://github.com/juanPendenza/quote-generator.git",
+    pageUrl: "https://juanPendenza.github.io/quote-generator",
   },
 ];
 
@@ -128,5 +129,17 @@ export const scondaryWorks = [
     technologies: ["react", "js", "tailwind"],
     codeUrl: "https://github.com/juanPendenza/portfolio.git",
     pageUrl: "https://juanPendenza.github.io/portfolio",
+  },
+  {
+    img: cajaRegistradoraImg,
+    titleEn: "Register box",
+    titleEs: "Caja registradora",
+    descriptionEn:
+      "This is a register box that can be use to do counts, to storage done sells and close the box at the end of the day.",
+    descriptionEs:
+      "Esta es una caja registradora que podés usar para hacer cuentas, almacenar las ventas y cerrar la caja al final del día.",
+    technologies: ["js", "html", "css"],
+    codeUrl: "https://github.com/juanPendenza/caja-registradora.git",
+    pageUrl: "https://juanPendenza.github.io/caja-registradora",
   },
 ];
