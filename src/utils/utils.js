@@ -86,7 +86,7 @@ export const primaryWorks = [
     descriptionEn:
       "This is an income/expense tracker app, where you can manage your money.",
     descriptionEs:
-      "Este es un seguidor de ingreses/gastos, donde podés administrar tu dinero.",
+      "Este es un seguidor de ingresos/gastos, donde podés administrar tu dinero.",
     technologies: ["react", "js", "tailwind"],
     codeUrl: "https://github.com/juanPendenza/expense-tracker.git",
     pageUrl: "https://juanPendenza.github.io/expense-tracker",
@@ -98,7 +98,7 @@ export const primaryWorks = [
     descriptionEn:
       "This is a random quote generator using the quote's ninja API.",
     descriptionEs:
-      "Este es un generador de frases al azar usando la API de frases de ninja",
+      "Este es un generador de frases al azar usando la API de frases de ninja.",
     technologies: ["react", "js", "tailwind"],
     codeUrl: "https://github.com/juanPendenza/quote-generator.git",
     pageUrl: "https://juanPendenza.github.io/quote-generator",
@@ -141,5 +141,25 @@ export const scondaryWorks = [
     technologies: ["js", "html", "css"],
     codeUrl: "https://github.com/juanPendenza/caja-registradora.git",
     pageUrl: "https://juanPendenza.github.io/caja-registradora",
+  },
+  {
+    titleEn: "Herramientapp client",
+    titleEs: "Herramientapp cliente",
+    descriptionEn:
+      "I developed the tool registration's client for a tools administration application, where the tool's data is loaded, validated, sent to the server and a message is received, in case of success or error when loading the tool. The page isn't mine and is not deployed, it is for internal use.",
+    descriptionEs:
+      "Desarrollé el cliente del alta de herramientas de una aplicación de administración de un pañol, donde se cargan los datos de la herramienta, se validan, se envia la herramienta al servidor y se recibe un mensaje en caso de éxito o error al cargar la herramienta. La página no es mia y no está desplegada, es de uso interno.",
+    technologies: ["react", "js", "tailwind"],
+    // codeUrl: "https://github.com/juanPendenza/.git",
+  },
+  {
+    titleEn: "Herramientapp server",
+    titleEs: "Herramientapp servidor",
+    descriptionEn:
+      "I developed the tool registration's server for a tools administration application, where the tool's data that is entered in the client are received, validated and loaded into the database.The page isn't mine and is not deployed, it is for internal use.",
+    descriptionEs:
+      "Desarrollé el servidor del alta de herramientas de una aplicación de administración de un pañol, donde llegan los datos de la herramienta desde el cliente, se validan los datos y luego se carga la herramienta en la base de datos. La página no es mia y no está desplegada, es de uso interno.",
+    technologies: ["js", "node", "express", "sqlite"],
+    // codeUrl: "https://github.com/juanPendenza/.git",
   },
 ];
