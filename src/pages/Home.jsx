@@ -9,6 +9,8 @@ import { Link } from "react-router-dom";
 import homeImg from "../assets/OIG4.png";
 import Skill from "../components/Skill";
 import { useLangContext } from "../components/LangContext.jsx";
+import enResume from "../../public/cv-dev-en.pdf";
+import esResume from "../../public/cv-dev-es.pdf";
 
 // PÁGINA PRINCIPAL DEL PORTFOLIO
 // SE MUESTRAN TODAS LAS OTRAS PAGES TAMBIÉN
@@ -46,11 +48,11 @@ function Home() {
                   : "Mi nombre es Juan Pablo Pendenza. Soy un desarrollador fullstack de Buenos Aires, Argentina.📍"}
               </p>
               {/* CV */}
-              {/* <a
+              <a
                 onClick={() => {
                   const resume = document.createElement("a"); // Accede al enlace dinámico
-                  resume.href = "/public/CV.pdf"; // Ruta del archivo en la carpeta public
-                  resume.download = "resume.pdf"; // Nombre para la descarga
+                  resume.href = lang === "en" ? enResume : esResume; // Ruta del archivo en la carpeta public
+                  resume.download = lang === "en" ? "resume.pdf" : "cv.pdf"; // Nombre para la descarga
                   document.body.appendChild(resume); // Añade el enlace al DOM temporalmente
                   resume.click(); // Activa el clic para descargar
                   document.body.removeChild(resume); // Remueve el enlace del DOM después del clic
@@ -74,7 +76,7 @@ function Home() {
                 <span className="font-poppins">
                   {lang === "en" ? "resume" : "cv"}
                 </span>
-              </a> */}
+              </a>
             </div>
             {/* IMAGEN */}
             <div className="w-72 lg:w-80 animate__animated animate__fadeInRight">

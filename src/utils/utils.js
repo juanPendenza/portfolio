@@ -150,7 +150,6 @@ export const scondaryWorks = [
     descriptionEs:
       "Desarrollé el cliente del alta de herramientas de una aplicación de administración de un pañol, donde se cargan los datos de la herramienta, se validan, se envia la herramienta al servidor y se recibe un mensaje en caso de éxito o error al cargar la herramienta. La página no es mia y no está desplegada, es de uso interno.",
     technologies: ["react", "js", "tailwind"],
-    // codeUrl: "https://github.com/juanPendenza/.git",
   },
   {
     titleEn: "Herramientapp server",
@@ -160,6 +159,5 @@ export const scondaryWorks = [
     descriptionEs:
       "Desarrollé el servidor del alta de herramientas de una aplicación de administración de un pañol, donde llegan los datos de la herramienta desde el cliente, se validan los datos y luego se carga la herramienta en la base de datos. La página no es mia y no está desplegada, es de uso interno.",
     technologies: ["js", "node", "express", "sqlite"],
-    // codeUrl: "https://github.com/juanPendenza/.git",
   },
 ];
