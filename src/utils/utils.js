@@ -15,6 +15,7 @@ import pmImg from "../assets/Postman.png";
 import trelloImg from "../assets/Trello.png";
 import vscImg from "../assets/vsc.png";
 import viteImg from "../assets/Vite.png";
+import mdbImg from "../assets/MongoDB.png";
 
 // WORKS IMAGES
 import pokemonImg from "../assets/pokemon-game-img.png";
@@ -53,8 +54,9 @@ export const backSkills = [
 ];
 
 export const dbSkills = [
-  { name: "Firebase", img: fbImg },
   { name: "SQLite", img: sqliteImg },
+  { name: "MongoDB", img: mdbImg },
+  { name: "Firebase", img: fbImg },
 ];
 
 export const otherSkills = [
