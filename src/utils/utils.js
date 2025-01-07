@@ -146,18 +146,18 @@ export const scondaryWorks = [
     titleEn: "Herramientapp client",
     titleEs: "Herramientapp cliente",
     descriptionEn:
-      "I developed the tool registration's client for a tools administration application, where the tool's data is loaded, validated, sent to the server and a message is received, in case of success or error when loading the tool. The page isn't mine and is not deployed, it is for internal use.",
+      "I developed the tool registration's client for a tools administration application, where the tool's data is loaded, validated and sent to the server. The page isn't mine and is not deployed, it is for internal use.",
     descriptionEs:
-      "Desarrollé el cliente del alta de herramientas de una aplicación de administración de un pañol, donde se cargan los datos de la herramienta, se validan, se envia la herramienta al servidor y se recibe un mensaje en caso de éxito o error al cargar la herramienta. La página no es mia y no está desplegada, es de uso interno.",
+      "Desarrollé el cliente del alta de herramientas de una aplicación de administración de un pañol, donde se cargan los datos de la herramienta, se validan y se envian al servidor. La página no es mia y no está desplegada, es de uso interno.",
     technologies: ["react", "js", "tailwind"],
   },
   {
     titleEn: "Herramientapp server",
     titleEs: "Herramientapp servidor",
     descriptionEn:
-      "I developed the tool registration's server for a tools administration application, where the tool's data that is entered in the client are received, validated and loaded into the database.The page isn't mine and is not deployed, it is for internal use.",
+      "I developed the tool registration's server for a tools administration application, where the tool's data that is entered in the client are received, validated and loaded into the database.The page is for internal use and is not deployed.",
     descriptionEs:
-      "Desarrollé el servidor del alta de herramientas de una aplicación de administración de un pañol, donde llegan los datos de la herramienta desde el cliente, se validan los datos y luego se carga la herramienta en la base de datos. La página no es mia y no está desplegada, es de uso interno.",
+      "Desarrollé el servidor del alta de herramientas de una aplicación de administración de un pañol, donde llegan los datos de la herramienta desde el cliente, se validan y luego se cargan en la base de datos. La página es de uso interno y no está desplegada.",
     technologies: ["js", "node", "express", "sqlite"],
   },
 ];
