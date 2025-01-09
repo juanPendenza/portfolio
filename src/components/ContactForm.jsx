@@ -33,7 +33,6 @@ function ContactForm() {
         document.getElementById("my_modal_3").showModal();
         //reseteo el form
         e.target.reset();
-        console.log(res.text);
       })
       .catch((err) => {
         {

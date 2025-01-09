@@ -33,7 +33,7 @@ export const primarySkills = [
   { name: "React", img: reactImg },
   { name: "Node", img: nodeImg },
   { name: "Express", img: exImg },
-  { name: "Firebase", img: fbImg },
+  { name: "MongoDB", img: mdbImg },
   { name: "SQLite", img: sqliteImg },
   { name: "GitHub", img: ghImg },
 ];
