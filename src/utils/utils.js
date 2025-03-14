@@ -24,6 +24,7 @@ import cajaRegistradoraImg from "../assets/caja-registradora-img.png";
 import calculadoraImg from "../assets/calculadora.png";
 import portfolioImg from "../assets/portfolio-img.png";
 import quoteGeneratorImg from "../assets/quote-generator-img.png";
+import todoListImg from "../assets/todo-list-img.png";
 
 // SKILLS QUE VOY A USAR COMO PROP EN EL COMPONENTE SKILL
 export const primarySkills = [
@@ -70,6 +71,18 @@ export const otherSkills = [
 // CARDS QUE VOY A USAR COMO PROP EN EL COMPONENTE CARD
 export const primaryWorks = [
   {
+    img: todoListImg,
+    titleEn: "To-do list",
+    titleEs: "Lista de tareas",
+    descriptionEn:
+      "This is a to-do list CRUD app where you can register and start organizing your tasks.",
+    descriptionEs:
+      "Esta es una lista de tareas CRUD donde podés registrarte en el sistema y comenzar a organizar tus tareas.",
+    technologies: ["mongodb", "express", "react", "node js"],
+    codeUrl: "https://github.com/juanPendenza/mern-tasks-manager-client",
+    pageUrl: "https://mern-tasks-manager-client.onrender.com",
+  },
+  {
     img: pokemonImg,
     titleEn: "Pókemon Fight!",
     titleEs: "Pelea de Pókemons!",
@@ -93,6 +106,9 @@ export const primaryWorks = [
     codeUrl: "https://github.com/juanPendenza/expense-tracker.git",
     pageUrl: "https://juanPendenza.github.io/expense-tracker",
   },
+];
+
+export const scondaryWorks = [
   {
     img: quoteGeneratorImg,
     titleEn: "Quote generator",
@@ -105,9 +121,6 @@ export const primaryWorks = [
     codeUrl: "https://github.com/juanPendenza/quote-generator.git",
     pageUrl: "https://juanPendenza.github.io/quote-generator",
   },
-];
-
-export const scondaryWorks = [
   {
     img: calculadoraImg,
     titleEn: "Calculator",
