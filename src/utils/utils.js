@@ -70,7 +70,7 @@ export const otherSkills = [
 
 // CARDS QUE VOY A USAR COMO PROP EN EL COMPONENTE CARD
 export const primaryWorks = [
-  {
+  /* {
     img: todoListImg,
     titleEn: "To-do list",
     titleEs: "Lista de tareas",
@@ -81,7 +81,7 @@ export const primaryWorks = [
     technologies: ["mongodb", "express", "react", "node js"],
     codeUrl: "https://github.com/juanPendenza/mern-tasks-manager-client",
     pageUrl: "https://mern-tasks-manager-client.onrender.com",
-  },
+  }, */
   {
     img: pokemonImg,
     titleEn: "Pókemon Fight!",
@@ -106,9 +106,6 @@ export const primaryWorks = [
     codeUrl: "https://github.com/juanPendenza/expense-tracker.git",
     pageUrl: "https://juanPendenza.github.io/expense-tracker",
   },
-];
-
-export const scondaryWorks = [
   {
     img: quoteGeneratorImg,
     titleEn: "Quote generator",
@@ -121,6 +118,9 @@ export const scondaryWorks = [
     codeUrl: "https://github.com/juanPendenza/quote-generator.git",
     pageUrl: "https://juanPendenza.github.io/quote-generator",
   },
+];
+
+export const scondaryWorks = [
   {
     img: calculadoraImg,
     titleEn: "Calculator",
