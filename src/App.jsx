@@ -1,9 +1,9 @@
 import { HashRouter, Route, Routes } from "react-router-dom";
-import Home from "./pages/Home";
-import Contact from "./pages/Contact";
-import NotFound from "./pages/NotFound";
-import Skills from "./pages/Skills";
-import Works from "./pages/Works";
+import Home from "./pages/Home.jsx";
+import Contact from "./pages/Contact.jsx";
+import NotFound from "./pages/NotFound.jsx";
+import Skills from "./pages/Skills.jsx";
+import Works from "./pages/Works.jsx";
 
 // ESTE ARCHIVO SE ENCARGA DE ENRUTAR, ES DECIR, MOSTRAR UN COMPONENTE DETERMINADO CUANDO CAMBIAMOS DE PAGE
 function App() {
