@@ -15,7 +15,7 @@ function NotFound() {
             <p className="py-6 text-lg font-poppins font-light text-[#808080]">
               {lang === "en"
                 ? "The page you're trying to access does not exist"
-                : "La página a la tratas de acceder no existe"}
+                : "La página a la que tratas de acceder no existe"}
             </p>
             <span className="loading loading-spinner loading-lg text-myGreen"></span>
           </div>

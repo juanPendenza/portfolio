@@ -4,7 +4,6 @@ import Logo from "./Logo";
 import spainImg from "../assets/spain.png";
 import usaImg from "../assets/usa.png";
 import { useLangContext } from "./LangContext";
-import ModalMessage from "./ModalMessage";
 
 // NAV DE LAS PAGES
 function Navbar() {
