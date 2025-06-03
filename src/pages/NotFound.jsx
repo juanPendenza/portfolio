@@ -1,5 +1,4 @@
-import Navbar from "../components/Navbar";
-import { useLangContext } from "../components/LangContext";
+import { useLangContext } from "../context/LangContext.jsx";
 
 function NotFound() {
   // TRAIGO EL LENGUAJE DEL CONTEXTO

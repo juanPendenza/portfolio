@@ -1,9 +1,14 @@
 import React, { useEffect } from "react";
-import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
-import SkillsLayout from "../components/SkillsLayout";
-import { backSkills, dbSkills, frontSkills, otherSkills } from "../utils/utils";
-import { useLangContext } from "../components/LangContext";
+import Footer from "../components/Footer.jsx";
+import Navbar from "../components/Navbar.jsx";
+import SkillsLayout from "../components/SkillsLayout.jsx";
+import {
+  backSkills,
+  dbSkills,
+  frontSkills,
+  otherSkills,
+} from "../utils/utils.js";
+import { useLangContext } from "../context/LangContext.jsx";
 
 // PAGINA QUE MUESTRA TODAS MIS SKILLS Y CERTIFICACIONES
 function Skills() {

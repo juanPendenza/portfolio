@@ -1,6 +1,6 @@
 // COMPONENTE CARD QUE MUESTRA CADA UNO DE LOS TRABAJOS
 
-import { useLangContext } from "./LangContext";
+import { useLangContext } from "../context/LangContext.jsx";
 
 // VOY A TRABAJAR EN BASE A LAS PROPS
 function Card({ work }) {

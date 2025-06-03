@@ -1,14 +1,14 @@
-import Navbar from "../components/Navbar";
-import WorksLayout from "../components/WorksLayout";
-import ContactForm from "../components/ContactForm";
-import Footer from "../components/Footer";
+import Navbar from "../components/Navbar.jsx";
+import WorksLayout from "../components/WorksLayout.jsx";
+import ContactForm from "../components/ContactForm.jsx";
+import Footer from "../components/Footer.jsx";
 import "animate.css";
 import { useEffect, useState } from "react";
 import { primarySkills, primaryWorks, scondaryWorks } from "../utils/utils.js";
 import { Link } from "react-router-dom";
 import homeImg from "../assets/OIG4.png";
-import Skill from "../components/Skill";
-import { useLangContext } from "../components/LangContext.jsx";
+import Skill from "../components/Skill.jsx";
+import { useLangContext } from "../context/LangContext.jsx";
 import enResume from "../../public/cv-dev-en.pdf";
 import esResume from "../../public/cv-dev-es.pdf";
 

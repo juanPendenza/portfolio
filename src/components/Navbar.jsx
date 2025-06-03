@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import Logo from "./Logo";
+import Logo from "./Logo.jsx";
 import spainImg from "../assets/spain.png";
 import usaImg from "../assets/usa.png";
-import { useLangContext } from "./LangContext";
+import { useLangContext } from "../context/LangContext.jsx";
 
 // NAV DE LAS PAGES
 function Navbar() {

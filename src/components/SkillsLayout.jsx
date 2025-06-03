@@ -1,4 +1,4 @@
-import Skill from "./Skill";
+import Skill from "./Skill.jsx";
 
 // ESTE COMPONENTE MAQUETA EL CONTENEDOR QUE MUESTRA LAS CARDS DE LOS TRABAJOS
 function SkillsLayout({ typeSkills }) {

@@ -1,4 +1,4 @@
-import { useLangContext } from "./LangContext";
+import { useLangContext } from "../context/LangContext.jsx";
 
 {
   /* MODAL DE EXITO/ERROR */

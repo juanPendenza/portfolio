@@ -1,7 +1,7 @@
 import emailjs from "emailjs-com";
-import ModalMessage from "./ModalMessage";
+import ModalMessage from "./ModalMessage.jsx";
 import { useState } from "react";
-import { useLangContext } from "./LangContext";
+import { useLangContext } from "../context/LangContext.jsx";
 
 // COMPONENTE FORMULARIO DE CONTACTO, QUE LUEGO LO LLAMO LAS PAGES HOME Y CONTACT
 function ContactForm() {

@@ -1,8 +1,8 @@
 import { useEffect } from "react";
-import ContactForm from "../components/ContactForm";
-import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
-import { useLangContext } from "../components/LangContext";
+import ContactForm from "../components/ContactForm.jsx";
+import Footer from "../components/Footer.jsx";
+import Navbar from "../components/Navbar.jsx";
+import { useLangContext } from "../context/LangContext.jsx";
 
 // PÁGINA QUE SOLAMENTE CONTIENE EL FORMULARIO PARA ENVIARME UN MSJ
 function Contact() {

@@ -1,8 +1,7 @@
-import Footer from "../components/Footer";
-import { useLangContext } from "../components/LangContext";
-import Navbar from "../components/Navbar";
-import WorksLayout from "../components/WorksLayout";
-import { primaryWorks, scondaryWorks } from "../utils/utils";
+import Footer from "../components/Footer.jsx";
+import Navbar from "../components/Navbar.jsx";
+import WorksLayout from "../components/WorksLayout.jsx";
+import { primaryWorks, scondaryWorks } from "../utils/utils.js";
 import { useEffect } from "react";
 
 // PÁGINA QUE SOLO MUESTRA LOS TRABAJOS

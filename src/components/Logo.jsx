@@ -1,5 +1,3 @@
-import React from "react";
-
 // LOGO QUE APARECE EN EL NAV Y EN EL FOOTER
 function Logo() {
   return (

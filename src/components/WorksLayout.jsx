@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import Card from "./Card";
-import { useLangContext } from "./LangContext";
+import Card from "./Card.jsx";
+import { useLangContext } from "../context/LangContext.jsx";
 
 // ESTE COMPONENTE MAQUETA EL CONTENEDOR QUE MUESTRA LAS CARDS DE LOS TRABAJOS
 function WorksLayout({ primaryWorks, secondaryWorks }) {
